@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .logo{
+    color: rgb(16, 41, 90);
+    font-size: 2rem;
+    padding-right: 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    position: fixed;
+    top: 0px;
+    color: rgb(41, 38, 38);
+    width: 100%;
+    background-color: white;
+  }
+  .nav-right {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+  }
+  .navlinks {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    text-transform: uppercase;
+  }
+  .hero {
+    background-image: url("../img/world.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .hero-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.2);
+  }
+  .hero h1 {
+    font-size: 4rem;
+    color: white;
+  }
+  .hero p {
+    font-size: 18px;
+    color: white;
+  }
+  .hero-buttons {
+    display: flex;
+    gap: 7px;
+    font-size: 18px;
+  }
+  .hero-buttons :first-child {
+    background-color: rgb(16, 41, 90);
+    padding: 20px 30px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  .hero-buttons :last-child {
+    background-color: transparent;
+    padding: 20px 20px;
+    color: white;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 20px;
+  }
+  .feature{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 7rem 10rem;
+      row-gap: 4rem;
+      align-items: center;
+  }
+  .feature img{
+  width: 500px;
+  border-radius: 20px;
+  }
+  .feature-text{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;      
+  }
+  .feature-two{
+    background-color: rgb(213, 213, 213);
+  }
+  .feature-text button{
+    background-color: rgb(16, 41, 90);
+    font-size: 18px;
+    border: none;
+    padding: 20px 20px;
+    text-transform:uppercase ;
+    color: white;
+    width: fit-content;
+    border-radius: 20px;
+  }
+  .feature-text h2{
+    font-size: 2.5rem;
+  }
+  .feature-three {
+    background-image: url("../img/waterfall.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+  }
+  .feature-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: 100%;
+    /* background-color: rgb(0, 0, 0, 0.2); */
+  }
+  .feature-three h1 {
+    font-size: 4rem;
+    color: white;
+  }
+  .feature-overlay p {
+    /* font-size: 18px; */
+    color: white;
+    width: 70%;
+    text-align: center;
+  }
+ .feature-overlay button{
+    background-color: rgb(16, 41, 90);
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: 100%;
+    margin-top: 125px;
+}
+.paragraph h1{
+    font-size: 2rem;
+}
+.paragraph p{
+    width: 70%;
+    text-align: center;
+}
+.paragraph button{
+    background-color: rgb(16, 41, 90);
+    padding: 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
