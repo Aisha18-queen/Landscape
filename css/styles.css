@@ -6,7 +6,7 @@
     color: rgb(16, 41, 90);
     font-size: 2rem;
     padding-right: 10%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:cursive
   }
   .navbar {
     display: flex;
@@ -17,7 +17,7 @@
     top: 0px;
     color: rgb(41, 38, 38);
     width: 100%;
-    background-color: white;
+    background-color: rgb(199, 205, 218);
   }
   .nav-right {
     display: flex;
@@ -32,6 +32,7 @@
   }
   .hero {
     background-image: url("../img/world.jpg");
+    background-attachment: fixed;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -92,7 +93,7 @@
       row-gap: 20px;      
   }
   .feature-two{
-    background-color: rgb(213, 213, 213);
+    background-color: rgb(199, 205, 218);
   }
   .feature-text button{
     background-color: rgb(16, 41, 90);
@@ -108,8 +109,9 @@
     font-size: 2.5rem;
   }
   .feature-three {
-    background-image: url("../img/waterfall.jpg");
-    height: 60vh;
+    background-image: url("../img/pexels-samandgos-709552.jpg");
+    background-attachment: fixed;
+    height: 65vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,7 +124,6 @@
     align-items: center;
     row-gap: 20px;
     height: 100%;
-    /* background-color: rgb(0, 0, 0, 0.2); */
   }
   .feature-three h1 {
     font-size: 4rem;
@@ -148,14 +149,17 @@
     align-items: center;
     row-gap: 20px;
     height: 100%;
-    margin-top: 125px;
+    background-color: rgb(199, 205, 218);
+    padding-top: 80px;
 }
 .paragraph h1{
+    color: black;
     font-size: 2rem;
 }
 .paragraph p{
     width: 70%;
     text-align: center;
+    color: black;
 }
 .paragraph button{
     background-color: rgb(16, 41, 90);
@@ -164,3 +168,77 @@
     border: none;
     border-radius: 20px;
 }
+
+.image-feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 205, 218);
+}
+.image-feature img{
+    padding-top: 2.5%;
+    height: 140vh;
+    width: 85vw;  
+}
+.paragraph-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color: rgb(20, 26, 41);
+    height: 35vh;
+    width: 100vw; 
+}
+.paragraph-two h1{
+    color: white;
+}
+.paragraph-two p{
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,300px);
+    grid-template-columns: repeat(4,337px);
+    background-color: black;
+}
+.item1{
+background: url(../img/1.jpg);
+}
+.item2{
+    background: url(../img/2.jpg);
+}
+.item3{
+    background: url(../img/3.jpg);
+}
+.item4{
+    background: url(../img/4.jpeg);
+}
+.item5{
+    background: url(../img/5.webp);
+}
+.item6{
+    background: url(../img/6.jpeg);
+}
+.item7{
+    background: url(../img/7.jpeg);
+}
+.item8{
+    background: url(../img/8.jpg);
+}
+.item9{
+    background: url(../img/9.jpeg);
+}
+.item10{
+    background: url(../img/10.jpeg);
+}
+.item11{
+    background: url(../img/11.webp);
+}
+.item12{
+    background: url(../img/12.jpeg);
+}
+                                                                                    
+                                                                                   
+                                                                                    
+    
